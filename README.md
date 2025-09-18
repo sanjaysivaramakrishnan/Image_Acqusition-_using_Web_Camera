@@ -133,9 +133,9 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
+
 ![alt text](image.png)
-</br>
+
 
 
 ### ii) Display the video
