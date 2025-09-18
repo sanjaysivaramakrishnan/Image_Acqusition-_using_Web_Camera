@@ -7,7 +7,6 @@ ii) Display the video
 iii) Display the video by resizing the window
 iv) Rotate and display the video
 
-
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
@@ -32,9 +31,10 @@ Anaconda - Python 3.7
 
 ## Program:
 
-```
-import cv2
-import matplotlib.pyplot as plt
+``` Python
+### Developed By: Sanjay Sivaramakrishnan M
+### Register No: 212223240151
+
 ## i) Write the frame as JPG file
 
 videoCaptureObject = cv2.VideoCapture(0)
@@ -55,6 +55,10 @@ plt.show()
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
+
+
+## ii) Display the video
+
 ## ii) Display the video
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
@@ -71,6 +75,11 @@ plt.imshow(frame[:,:,::-1])   # Last frame
 plt.title("Last Frame of the web stream")    
 videoCaptureObject.release()
 cv2.destroyAllWindows()
+
+
+
+## iii) Display the video by resizing the window
+
 ## iii) Display the video by resizing the window
 import cv2
 import numpy as np
@@ -90,6 +99,9 @@ plt.imshow(resized_frame[:,:,::-1])   # Last frame
 plt.title("Resized Image")
 cap.release()
 cv2.destroyAllWindows()
+
+
+## iv) Rotate and display the video
 ## iv) Rotate and display the video
 import cv2
 import numpy as np
@@ -110,29 +122,6 @@ plt.title("Rotated Image")
 cap.release()
 cv2.destroyAllWindows()
 
-```
-
-### Developed By: Sanjay Sivaramakrishnan M
-### Register No: 212223240151
-
-## i) Write the frame as JPG file
-![alt text](frame_1.jpg)
-
-
-
-## ii) Display the video
-![alt text](image.png)
-
-
-
-## iii) Display the video by resizing the window
-![alt text](image-1.png)
-
-
-
-## iv) Rotate and display the video
-![alt text](image-2.png)
-
 
 
 
@@ -145,26 +134,27 @@ cv2.destroyAllWindows()
 
 ### i) Write the frame as JPG image
 </br>
+![alt text](image.png)
 </br>
 
 
 ### ii) Display the video
 </br>
+![alt text](image-1.png)
 </br>
 
 
 ### iii) Display the video by resizing the window
 </br>
+![alt text](image-2.png)
 </br>
 
 
 
 ### iv) Rotate and display the video
 </br>
+![alt text](image-3.png)
 </br>
-
-
-
 
 
 ## Result:
